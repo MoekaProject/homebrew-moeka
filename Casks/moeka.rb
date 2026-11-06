@@ -1,9 +1,9 @@
 cask "moeka" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.1.34"
-  sha256 arm:   "ac10943347a91d5be59a815b3d0008db4389b40e62fd022dfb728c8320474087",
-         intel: "e873d1267ba92c6b23f4cf4eef91c581ea3165556e11cd5784fe9f8f10d2b9f2"
+  version "0.1.35"
+  sha256 arm:   "49f96162ce78a3ac8e0bb3d580663e39589719daa1bcd49d7295b3256db056d8",
+         intel: "fffb631c9fa0f325abf68fea1caa1cafc58db3433600ca96ae182a3e1c30d654"
 
   url "https://github.com/MoekaProject/community/releases/download/v#{version}/Moeka-macos-#{arch}.dmg"
   name "Moeka"
